@@ -1,0 +1,27 @@
+.c-margin{
+margin-left: 9%;
+margin-right: 9%;
+margin-top: 3%;
+}
+.btn {
+    border: none;
+    background: none; /* Optional: Remove background color if any */
+    padding: 0; /* Optional: Remove padding if any */
+  }
+  .card{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  li{
+    list-style-type: none;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+
+  li .card:hover{
+    border: 1.3px solid blue;
+  }
+  ol{
+    padding: 0;
+  }
